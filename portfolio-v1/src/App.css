@@ -2,27 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.title{
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 80px;
+  font-family: Georgia;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.project-button{
+  display: block;
+  width: 20%;
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.bio{
+  display: block;
+  width: 40%;
+  font-size: 50px;
+  font-family: Georgia;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin: auto;
+  background: black;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.bio-info{
+  display: block;
+  width: 90%;
+  margin: auto;
+  font-size: 25px;
+  background: black;
+  border: 1px solid white;
+  padding: 40px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: Georgia;
   color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
