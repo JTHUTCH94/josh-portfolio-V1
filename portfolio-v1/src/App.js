@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
