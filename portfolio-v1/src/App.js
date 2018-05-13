@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1 className="title">Joshua Hutchinson</h1>
-        <h2 className="bio">Who am I?</h2>
-        <p className="bio-info">My name is Joshua Hutchinson, and I am beginning my career as a Junior Full-Stack Web Developer. I am currently based out of the Atlanta, GA area. My skill set currently includes JavaScript, HTML, CSS, React.js/Redux, and jQuery. I have experience working with databases (primarily Mongo) and using them to create my own web based applications.</p>
-        <button type="enter" className="project-button" value="projects">View my Work</button>
-      </div>
-    );
-  }
-}
-
-export default App;
+        <div className="landing-page">
+          <h1 className="title">Hutch's Homepage</h1>
+          <ul className="bio-info">
+            <li>Joshua Hutchinson </li>
+            <li>jthutch94@gmail.com </li>
+            <li><a href="https://github.com/JTHUTCH94">github.com/JTHUTCH</a></li>
+            <li><a href=
+            "https://www.linkedin.com/in/hutchinson-joshua">linkedin.com/in/hutchinson-joshua</a></li>
+            <li> Sandy Springs, GA </li>
+            </ul>
+        </div>
+        <div className="work">
+          <ul className="work-list">
+            <li>
+              <label htmlFor="work-link">
+              Full Stack Project: <a href="https://quirky-heisenberg-45af30.netlify.com/"> RPG Character Builder</a></label>
+            </li>
+          </ul>
+        </div>
+        </div>
+        );
+      }
+    }
+    
+    export default App;
